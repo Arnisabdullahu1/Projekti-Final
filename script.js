@@ -5,7 +5,7 @@ const products = [
     { id: 2, name:  " Addidas OTR E t-shirt", price: 12.99, category: "men", img: "https://contents.mediadecathlon.com/m18673680/76c6590afe797f80d4ca9206c73dafc5/m18673680.jpg" },
     { id: 3, name:  "Mid-rise straight jeans in blue  jeans", price: 45.99, category: "women", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTPIRXsR_9kZMILVtP8EBvkL9huhcNFIDr0g&s" },
     { id: 4, name:  "Baggy jeans faded jeans", price: 39.99, category: "women", img: "https://wwd.com/wp-content/uploads/2024/06/frame-the-loose-jeans.jpg?w=1000" },
-    { id: 5, name:  "t-shirt Nike JUST DO IT for ", price: 10.99, category: "men", img: "https://www.guernseywoollens.com/cdn/shop/products/traditional-guernsey-jumper-in-navy-jumpers-guernsey-knitwear-guernsey-jumper.jpg?v=1738584601" },
+    { id: 5, name:  "t-shirt Nike JUST DO IT for ", price: 10.99, category: "men", img: "https://www.flatspot.com/cdn/shop/files/nike-sb-just-do-it-olympic-t-shirt-black-1_1300x1500_crop_center.progressive.jpg?v=1721742024" },
     { id: 6, name:  "Traditional Guernsey Jumper ", price: 30.99, category: "men", img: "https://www.guernseywoollens.com/cdn/shop/products/traditional-guernsey-jumper-in-navy-jumpers-guernsey-knitwear-guernsey-jumper.jpg?v=1738584601" },
     { id: 7, name:  "Women's Straight Leg Jeans", price: 39.99, category: "women", img: "https://cdn.shopify.com/s/files/1/0557/0612/4373/files/7UD70C31_21A_1.jpg?v=1770307164" },
     { id: 8, name:  " Baggy vintage wide jeans", price: 24.99, category: "men", img: "https://img.abercrombie.com/is/image/anf/KIC_131-4252-00291-278_prod1?policy=product-medium" },
@@ -27,18 +27,18 @@ const blogPosts = [
         id: 1,
         title: "Cili material i rrobave eshte me e mira?",
         excerpt:
-            "Këshilla praktike për të mos u mashtruar nga marketingu dhe për të blerë kufje që vërtet ia vlejnë.",
-        image: "https://picsum.photos/id/1015/600/400",
+            "Këshilla praktike për të mos u mashtruar nga marketingu dhe për të blerë rrobave që vërtet ia vlejnë.",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQic7fZG_Me-JliyFplw4k4i175Nl_xXQ7NLw&s",
         date: "28 Mars 2026",
         readTime: "5 min",
-        link: "https://en.wikipedia.org/wiki/Headphones", // Wikipedia
+        link: "https://en.wikipedia.org/wiki/Clothing_material", // Wikipedia
     },
     {
         id: 2,
-        title: "5 mënyra për të mbrojtur telefonin tënd nga dëmtimi",
+        title: "Tendencat e fundit të modës 2026",
         excerpt:
-            "Si të zgjasësh jetën e telefonit tënd me aksesorët e duhur dhe zakone të mira.",
-        image: "https://picsum.photos/id/201/600/400",
+            "Çfarë është në trend këtë sezon? Ngjyra, materiale dhe stile që po dominojnë.",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuphw8Ira6uK0R-yCWPA3THFxHh3Z1kfxT9g&s",
         date: "27 Mars 2026",
         readTime: "4 min",
         link: "https://www.google.com/search?q=si+t%C3%AB+mbrojm%C3%AB+telefonin", // Google search
@@ -48,40 +48,40 @@ const blogPosts = [
         title: "Stili i rrobave te vjeter vs Stili i rrobave moderne – Çfarë zgjedhin të rinjtë?",
         excerpt:
             "Krahasim i plotë midis rrobave te vjetra dhe rrobave moderne. Cila është më e mira për ty?",
-        image: "https://picsum.photos/id/29/600/400",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9VXsA4mQowDNNUN2apx4dcxbiI6PzKAtoRQ&s",
         date: "25 Mars 2026",
         readTime: "7 min",
-        link: "https://en.wikipedia.org/wiki/Smartwatch",
+        link: "https://en.wikipedia.org/wiki/Clothing_material",
     },
     {
         id: 4,
-        title: "Çfarë është Noise Cancelling dhe a ia vlen?",
+        title: "Si të zgjedhësh madhësinë e duhur online",
         excerpt:
-            "Shpjegim i thjeshtë se si funksionon anulimi i zhurmës dhe cilat kufje e kanë më të mirë.",
-        image: "https://picsum.photos/id/237/600/400",
+            "Këshilla praktike për të shmangur gabimet gjatë blerjes.",
+        image: "https://www.meghantelpner.com/wp-content/uploads/2023/03/Plastics-in-Clothing.jpg",
         date: "23 Mars 2026",
         readTime: "6 min",
-        link: "https://en.wikipedia.org/wiki/Active_noise_control",
+        link: "https://en.wikipedia.org/wiki/Clothing_material",
     },
     {
         id: 5,
-        title: "Si të zgjedhësh Power Bank të mirë?",
+        title: "Street style – inspirim nga përditshmëria",
         excerpt:
-            "Çfarë duhet të shikosh kur blen një power bank (kapaciteti, shpejtësia, siguria).",
-        image: "https://picsum.photos/id/180/600/400",
+            "Foto dhe ide nga njerëz realë me stil unik.",
+        image: "https://static.wixstatic.com/media/f8979f_8c35b6450f144156a88b65ee42ea09bf~mv2.png/v1/fill/w_568,h_378,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f8979f_8c35b6450f144156a88b65ee42ea09bf~mv2.png",
         date: "20 Mars 2026",
         readTime: "4 min",
-        link: "https://www.google.com/search?q=best+power+bank+2026",
+        link: "https://en.wikipedia.org/wiki/Clothing_material",
     },
     {
         id: 6,
-        title: "Si të zgjedhësh kufje wireless të mira në 2026",
+        title: "Kujdesi për rrobat",
         excerpt:
-            "Këshilla praktike për të mos u mashtruar nga marketingu dhe për të blerë kufje që vërtet ia vlejnë.",
-        image: "https://picsum.photos/id/1015/600/400",
+            "Si t’i lash dhe ruash rrobat që të zgjasin më shumë.",
+        image: "https://uwaterloo.ca/news/sites/ca.news/files/styles/feature_large/public/perry-merrity-ii-gprji5r4rak-unsplash.jpg?itok=0Ert-3zu",
         date: "28 Mars 2026",
         readTime: "5 min",
-        link: "https://en.wikipedia.org/wiki/Headphones", // Wikipedia
+        link: "https://en.wikipedia.org/wiki/Clothing", // Wikipedia
     },
 ];
 
